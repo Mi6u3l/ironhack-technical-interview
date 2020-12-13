@@ -222,8 +222,8 @@ const sumES6 = (x, y) => x + y;
 
 There are several data types defined in JavaScript:
 
-- **Primitive type**: `Boolean`, `Number`, `String`, `Null`, `Undefined`, and as of recently `BigInt` and `Symbol`.
-- **Reference type**: `Object`.
+- **Primitive type**: `Boolean`, `Number`, `String`, `Null`, `Undefined`.
+- **Non-primitive type**: `Object`, `Array`.
 
 #### Q: Is an `Array` a data type?
 
