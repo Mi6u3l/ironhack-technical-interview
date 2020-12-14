@@ -220,12 +220,6 @@ There are several data types defined in JavaScript:
 - **Primitive type**: `Boolean`, `Number`, `String`, `Null`, `Undefined`.
 - **Non-primitive type**: `Object`, `Array`.
 
-#### Q: Is an `Array` a data type?
-
-An `Array` is not a data type. It is one of JS’s built-in global objects. Other global objects include instantiable classes such as `Date`, `Error`, `Promise`, and useful objects such as `Math`.
-
-`Arrays` are special, in the sense that they have some of their functionality built into the language.
-
 #### Q: What is a closure?
 
 A **closure** encapsulates a portion of code.
