@@ -59,11 +59,6 @@ JavaScript is a *multi-paradigm language*, meaning that it supports multiple dif
 
 Whenever you rely on in-built `methods`, `prototypes` or `classes`, you are essentially using Object-Oriented Programming.
 
-#### Q: Why is it called Object-Oriented?
-
-In **OOP**, everything is considered to be modeled as an object.
-
-This abstraction can be taken all the way down to nuts and bolts for a car, or as broad as simply a car type with a year, make, and model.
 
 #### Q: What is functional programming?
 
