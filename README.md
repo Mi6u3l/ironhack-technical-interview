@@ -218,7 +218,7 @@ const sumES6 = (x, y) => x + y;
 There are several data types defined in JavaScript:
 
 - **Primitive type**: `Boolean`, `Number`, `String`, `Null`, `Undefined`.
-- **Non-primitive type**: `Object`, `Array`.
+- **Non-primitive type**: `Object`, `Array` (Which is actually a specific object).
 
 #### Q: What is a closure?
 
@@ -241,12 +241,64 @@ A `Promise` is an object that wraps an *asynchronous operation* and *resolves* w
 Promises can also be used in conjunction with `async`/`await` in order to write asynchronous code in a more synchronous-looking manner.
 
 > **External Resource**: [Medium article on callbacks vs. promises](https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee)
+> 
+
+#### Q: What is the difference between == and ===
+
+== in JavaScript is used for comparing two variables, but it ignores the datatype of variable. === is used for comparing two variables, but this operator also checks datatype and compares two values.
+
+### Q: What is the difference between undefined and null
+
+Null is an assigned value. It means nothing. undefined means a variable has been declared but not defined yet.
+
+
+### Q: What is the this keyworkd
+
+It has different values depending on where it is used:
+
+- In a method, this refers to the owner object.
+- Alone, this refers to the global object.
+- In a function, this refers to the global object.
+- In an event, this refers to the element that received the event.
+- Methods like call(), and apply() can refer this to any object.
+
+### CSS
+
+#### Q: We have 2 divs, the top one has a margin-bottom of 20px and the bottom div has a margin-top of 20px as well, whats the size of the space between them?
+
+Collapsing margins happen when two vertical margins come in contact with one another. If one margin is greater than the other, then that margin overrides the other, leaving one margin, answer 20px.
+
+### Q: Whats the difference between justify content and align items?
+
+justify-content: Horizontal
+Alignment & Spacing along primary axis (X-axis)
+
+align-items: Vertical
+Alignment only along secondary axis (Y-axis)
+
+### Q: Difference between flexbox and grid
+
+The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. 
+
 
 ### React
 
 #### Q: What is a higher-order component?
 
-Similarly to a higher-order function, a higher-order component simply "wraps" a different component.
+A higher-order component (HOC) is an advanced technique in React for reusing component logic. HOCs are not part of the React API, per se. They are a pattern that emerges from React’s compositional nature.
+
+Concretely, a higher-order component is a function that takes a component and returns a new component.
+
+
+### Q: What is the virtual DOM
+
+The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM.
+
+
+### Q: What is the reconciliation
+
+Is the name for the process that syncs the virtual DOM with the "real" DOM
+
 
 ### APIs
 
@@ -332,13 +384,6 @@ For example, if Twitter didn't *escape* special characters in user publications 
 
 > **External Resource**: [Cross-site Scripting (**XSS**).](https://en.wikipedia.org/wiki/Cross-site_scripting)
 
-**Cross-Site Request Forgery (CSRF)**
-
-With Cross-Site Request Forgery, an ill-intentioned third party would be able issue requests to our application with a user's authentication information without their knowledge.
-
-The way we mitigate CSRF attacks is by sending a unique CSRF Token with each request, or by not using cookie-based authentication at all (using JWT instead).
-
-> **External Resource**: [Cross-site Request Forging (CSRF).](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF))
 
 ### Project Management
 
