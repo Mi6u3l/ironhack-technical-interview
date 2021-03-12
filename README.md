@@ -247,12 +247,12 @@ Promises can also be used in conjunction with `async`/`await` in order to write 
 
 == in JavaScript is used for comparing two variables, but it ignores the datatype of variable. === is used for comparing two variables, but this operator also checks datatype and compares two values.
 
-### Q: What is the difference between undefined and null
+#### Q: What is the difference between undefined and null
 
 Null is an assigned value. It means nothing. undefined means a variable has been declared but not defined yet.
 
 
-### Q: What is the this keyworkd
+#### Q: What is the this keyworkd
 
 It has different values depending on where it is used:
 
@@ -268,7 +268,7 @@ It has different values depending on where it is used:
 
 Collapsing margins happen when two vertical margins come in contact with one another. If one margin is greater than the other, then that margin overrides the other, leaving one margin, answer 20px.
 
-### Q: Whats the difference between justify content and align items?
+#### Q: Whats the difference between justify content and align items?
 
 justify-content: Horizontal
 Alignment & Spacing along primary axis (X-axis)
@@ -276,7 +276,7 @@ Alignment & Spacing along primary axis (X-axis)
 align-items: Vertical
 Alignment only along secondary axis (Y-axis)
 
-### Q: Difference between flexbox and grid
+#### Q: Difference between flexbox and grid
 
 The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. 
 
@@ -290,12 +290,12 @@ A higher-order component (HOC) is an advanced technique in React for reusing com
 Concretely, a higher-order component is a function that takes a component and returns a new component.
 
 
-### Q: What is the virtual DOM
+#### Q: What is the virtual DOM
 
 The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM.
 
 
-### Q: What is the reconciliation
+#### Q: What is the reconciliation
 
 Is the name for the process that syncs the virtual DOM with the "real" DOM
 
