@@ -256,11 +256,7 @@ Null is an assigned value. It means nothing. undefined means a variable has been
 
 It has different values depending on where it is used:
 
-- In a method, this refers to the owner object.
-- Alone, this refers to the global object.
-- In a function, this refers to the global object.
-- In an event, this refers to the element that received the event.
-- Methods like call(), and apply() can refer this to any object.
+The first and most important question you need to ask yourself when you’re trying to answer this question is “Where is this function being invoked?”. The only way you can tell what the this keyword is referencing is by looking at where the function using the this keyword was invoked.
 
 ### CSS
 
