@@ -252,7 +252,7 @@ Promises can also be used in conjunction with `async`/`await` in order to write 
 Null is an assigned value. It means nothing. undefined means a variable has been declared but not defined yet.
 
 
-#### Q: What is the this keyworkd
+#### Q: What is the this keyword
 
 It has different values depending on where it is used:
 
