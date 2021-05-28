@@ -260,6 +260,20 @@ The first and most important question you need to ask yourself when you’re try
 
 ### CSS
 
+### Q: What is the difference between inline, block and inline-block
+
+*display: block* means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it.
+
+*display: inline* means that the element is displayed inline, inside the current block on the same line.
+
+*display: inline-blocl* Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+
+### Q: What is the difference between display none and visibility hidden
+
+visibility:hidden - It is not visible but gets up it’s original space whereas,
+
+display:none - It is hidden and takes no space.
+
 #### Q: We have 2 divs, the top one has a margin-bottom of 20px and the bottom div has a margin-top of 20px as well, whats the size of the space between them?
 
 Collapsing margins happen when two vertical margins come in contact with one another. If one margin is greater than the other, then that margin overrides the other, leaving one margin, answer 20px.
@@ -426,8 +440,19 @@ One should "depend upon abstractions, [not] concretions."
 
 DRY stands for **D**on't **R**epeat **Y**ourself.
 
-## External Resources
+## Next logical technologies to learn after the bootcamp
 
-> [123 JavaScript Interview Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions)
+- Typescript
+- Redux
+- Vue.js
 
-> [1000 JavaScript Interview Questions](https://github.com/sudheerj/javascript-interview-questions)
+## Resources to improve you JavaScript skills
+
+- U; - https://ui.dev - Courses provided by Tyler McGinnis (Paid courses, free newsletter)
+- Egghead - https://egghead.io - Multiple tutorials within the JavaScript ecosystem (Paid)
+- https://www.freecodecamp.org/ - (Free)
+
+## Resources to improve your algorithm solving skills
+
+- https://leetcode.com
+- https://www.algoexpert.io
